@@ -1,0 +1,201 @@
+@charset "UTF-8";
+body {
+	margin: 0;	
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+	  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul.topnav li {float: left; 
+
+ display: inline-block;
+    
+}
+
+ul.topnav li a {
+  display: block;
+  color: #716df2;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+  text-align: center;
+  padding: 25px 50px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #090B32;
+color: #A5A2F1}
+
+ul.topnav li a.active {background-color: #E09100;
+color:#DCD090}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+
+
+h1{
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;  /*  margin-left: 200px;
+    margin-right: 200px;*/
+	color: #2E3171;
+	font-size: 110px
+}
+h2 {
+	 font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif; 
+	color: #2E3171;
+	font-size: 85px
+}
+
+h4, h5 {
+	 font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif; 
+	color: #2E3171;
+	font-size: 40px
+	
+}
+
+p {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-size: 40px
+}
+
+
+
+.right-image {
+  float: right;
+  margin-left: 15px; /* Adds space between the image and text */
+  width: 60%; /* Adjust width as needed */
+}
+
+
+header {
+	padding:10%;	
+}
+
+article {
+	padding-left:10%; 
+	padding-right:10%;
+}
+
+footer {
+    background-color: #C1C0EC;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	
+}
+
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+q {
+	font-size: 50px;
+	padding-bottom: 50px;
+		padding-top: 50px;
+			padding-right: 40px;
+	padding-left: 40px;
+	text-align: center
+	
+}
+
+
+    blockquote {
+        font-size: 40px;
+		
+    }
+
+
+ul, li {
+	
+	line-height: 1.9;
+	
+	font-size: 40px;
+	  
+		
+}
+
+
+
+    .custom-button {
+		display: inline-block;
+		margin: 20px auto;
+        background-color: #D9AF32; /* */
+        color: white; /* White text */
+		font-size: 55px;
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+        padding: 10px 20px;        /* Padding around the text */
+        border: none;              /* Remove border */
+        border-radius: 5px;        /* Rounded corners */
+        cursor: pointer; /* Cursor changes to pointer on hover */
+		text-align: center;
+		 text-decoration: none;
+    }
+
+    .custom-button:hover {
+        background-color: #6D74F2; /* Darker green on hover */
+		color: #D9AF32
+    }
+
+
+
+
+.custom-box {
+        /* Dashed green border */
+        padding: 10px;
+        border-radius: 10px;       /* Rounded corners */
+        background-color: #C1C0EC; /* Adds a background color */
+    }
+
+.button-container {
+  display: flex;
+  gap: 10px;                /* Space between buttons */
+}
+
+
+a{
+	color: #525AF2
+}
+
+    a:hover {
+        color: #D9AF32;
+        background-color: lightblue; /* Add background color on hover */
+             /* Make the text bold on hover */
+    }
+
+    .flex-container {
+        display:flex;
+		text-align: left
+		/* Enables flexbox layout */
+          /* Aligns image and text vertically in the center */
+    }
+
+    .flex-container img {
+        margin-left: 15px;        /* Add space between the image and text */
+        width: 800px;              /* Set a fixed width for the image */
+    }
+
+.rightAlign {
+	float: right
+	
+}
+.leftAlign {
+	float: left
+}
+.twoColumn{
+	collumn-count: 2;
+	collumn-gap: 40px;
+}
